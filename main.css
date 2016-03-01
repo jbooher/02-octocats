@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+li {
+  list-style-type: none;
+}
+
+.octodex {
+  padding: 0;
+  margin: 20px 0 0 10px;
+}
+
+.octocat {
+  width: 440px;
+  float: left;
+  margin: 10px 12px;
+  border-bottom: 1px solid #cacaca;
+}
+
+.octocat a img {
+  width: 440px;
+  height: 430px;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+}
+
+/*.octocat a {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 7.5px 0 7.5px;
+  border-color: #cccccc transparent transparent transparent
+}*/
+
+.authors li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.image-number {
+  float: left;
+  color: #cacaca;
+  padding: 10px 0;
+}
+
+.image-caption {
+  float: right;
+  padding: 6px 0;
+}
+
+.image-caption ul {
+  padding: 0;
+}
+
+.image-caption ul, .image-caption span, .image-caption a, .image-number {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.arrow_box {
+	position: relative;
+	background: #cacaca;
+}
+.arrow_box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(202, 202, 202, 0);
+	border-top-color: #cacaca;
+	border-width: 10px;
+	margin-left: -10px;
+}
